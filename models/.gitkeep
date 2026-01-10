@@ -1,0 +1,4 @@
+# Trained model artifacts go here (not tracked in git)
+# Run train.py to generate:
+#   - fraud_model.joblib
+#   - scaler.joblib

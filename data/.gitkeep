@@ -1,0 +1,4 @@
+# Data directory
+# The Kaggle credit card fraud dataset goes here.
+# Download from: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+# File: creditcard.csv (~150MB, not tracked in git)

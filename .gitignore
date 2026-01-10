@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# virtual env
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# data files (too big for git)
+data/*.csv
+data/*.zip
+*.csv
+
+# model artifacts
+models/*.joblib
+models/*.pkl
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# os
+.DS_Store
+Thumbs.db
+
+# env
+.env
+*.log
