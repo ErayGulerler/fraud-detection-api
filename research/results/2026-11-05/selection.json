@@ -1,0 +1,7 @@
+{
+  "variant": "rf_smote",
+  "mode": "sigmoid",
+  "representative_seed": 42,
+  "variant_criterion": "mean validation raw average precision",
+  "mode_criterion": "mean validation log loss for selected variant"
+}

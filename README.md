@@ -1,20 +1,42 @@
 # Fraud Detection API
 
-Machine learning system that classifies credit card transactions as fraudulent or legitimate. Built around the [Kaggle Credit Card Fraud dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) — 284k transactions where only 0.17% are fraud.
+Offline research on rare-event classification, alongside an earlier Flask API
+prototype. Uses the public [ULB/Worldline credit-card fraud dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
-The interesting challenge here is the extreme class imbalance. A dumb model that always predicts "not fraud" gets 99.8% accuracy, so you need SMOTE + proper metrics (precision/recall, not accuracy) to actually learn anything useful.
+## Research extension: reliability under distribution shift
 
-## Results
+The November 2026 extension compares Logistic Regression and Random Forest with
+no imbalance treatment, balanced weights, or training-only SMOTE. It separates
+training, probability calibration, validation and chronological test data;
+freezes model selection and thresholds before test evaluation; and studies
+controlled label-prior shifts without retuning.
 
-After trying Logistic Regression, Random Forest, and XGBoost:
+- [Experimental protocol and limitations](research/PROTOCOL.md)
+- [Results and interpretation](research/REPORT.md)
+- [Aggregate run artifacts](research/results/2026-11-05)
+- [Implementation](research/experiment.py) and [safeguard tests](tests/test_research.py)
 
-| Model | Precision | Recall | F1 | AUC-ROC |
-|-------|-----------|--------|----|---------|
-| Logistic Regression | 0.87 | 0.62 | 0.72 | 0.95 |
-| **Random Forest** | **0.95** | **0.91** | **0.93** | **0.98** |
-| XGBoost | 0.94 | 0.92 | 0.93 | 0.98 |
+The earlier score table has been withdrawn: its pipeline fitted preprocessing
+before splitting and selected a model using test recall. It also listed XGBoost
+without a matching implementation. Those scores are not validated evidence.
+The new study reports all comparisons, including negative findings.
 
-RF and XGBoost are very close. Went with Random Forest since it's easier to interpret and doesn't need an extra dependency.
+### Reproduce the study
+
+Python 3.12 was used for the recorded run. Create a virtual environment, then:
+
+```bash
+pip install -r research/requirements-lock.txt
+python -m pytest tests/ -q
+python -m research.experiment --data data/creditcard.csv --output research/results/new-run
+python -m research.report --run research/results/new-run
+```
+
+Download `creditcard.csv` from Kaggle or the TensorFlow mirror documented in the
+protocol. The CSV and personal application documents are not committed.
+The runner refuses to overwrite a result directory. Default seeds are 42, 43,
+44; Random Forest has 100 trees and uses four workers. Results are offline
+benchmark measurements, not deployed fraud-system performance.
 
 ## Tech Stack
 
@@ -23,7 +45,7 @@ RF and XGBoost are very close. Went with Random Forest since it's easier to inte
 - imbalanced-learn (SMOTE for oversampling)
 - Flask (REST API)
 - pandas / numpy (data pipeline)
-- pytest + pytest-cov (testing, 87% coverage)
+- pytest + pytest-cov (automated tests)
 - flake8 (linting)
 - GitHub Actions CI
 
@@ -62,7 +84,14 @@ source venv/bin/activate  # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Training
+## Legacy API demo training
+
+`train.py` and `src/` are retained for the original demonstration. They are not
+the research evaluation path. Known limitations include preprocessing before
+the random split, full-hour counts that include future events, test-based model
+selection, and serving-time Amount scaling that differs from training. Do not
+use this path for performance claims or production decisions. The research
+pipeline does not export a compatible API model.
 
 Download the dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and put `creditcard.csv` in the `data/` folder.
 
@@ -70,7 +99,7 @@ Download the dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/credi
 # train with default settings (Random Forest)
 python train.py
 
-# compare all models
+# compare the two legacy models (exploratory only)
 python train.py --compare
 ```
 

@@ -1,0 +1,23 @@
+{
+  "method": "class-stratified percentile, fixed model and class counts",
+  "seed": 20261105,
+  "repetitions": 200,
+  "intervals_95": {
+    "average_precision": [
+      0.6258004427780579,
+      0.8667047726403132
+    ],
+    "precision": [
+      0.8666216216216217,
+      1.0
+    ],
+    "recall": [
+      0.5769230769230769,
+      0.8076923076923077
+    ],
+    "brier": [
+      0.00028870042875559637,
+      0.0005643946058500732
+    ]
+  }
+}

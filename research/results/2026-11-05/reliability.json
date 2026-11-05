@@ -1,0 +1,1046 @@
+[
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 0,
+    "n": 42484,
+    "mass": 0.9981908319823313,
+    "mean_probability": 0.001025478496401615,
+    "fraction_fraud": 0.0004001506449486866
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 1,
+    "n": 17,
+    "mass": 0.00039942670519959586,
+    "mean_probability": 0.14469046761312315,
+    "fraction_fraud": 0.11764705882352941
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 2,
+    "n": 8,
+    "mass": 0.00018796550832922158,
+    "mean_probability": 0.23255584242386554,
+    "fraction_fraud": 0.125
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 3,
+    "n": 9,
+    "mass": 0.00021146119687037428,
+    "mean_probability": 0.3476651795320879,
+    "fraction_fraud": 0.2222222222222222
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 4,
+    "n": 3,
+    "mass": 7.04870656234581e-05,
+    "mean_probability": 0.45860360948528256,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 5,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.5217981342250407,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 6,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.6776446745421889,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 7,
+    "n": 3,
+    "mass": 7.04870656234581e-05,
+    "mean_probability": 0.7500876940960991,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 8,
+    "n": 7,
+    "mass": 0.00016446981978806888,
+    "mean_probability": 0.8714975654882389,
+    "fraction_fraud": 0.2857142857142857
+  },
+  {
+    "variant": "lr_none",
+    "mode": "raw",
+    "bin": 9,
+    "n": 28,
+    "mass": 0.0006578792791522755,
+    "mean_probability": 0.9788778378189557,
+    "fraction_fraud": 0.75
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 0,
+    "n": 42515,
+    "mass": 0.998919198327107,
+    "mean_probability": 0.0003361474547146501,
+    "fraction_fraud": 0.0004939433141244267
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 1,
+    "n": 7,
+    "mass": 0.00016446981978806888,
+    "mean_probability": 0.13762712709585473,
+    "fraction_fraud": 0.5714285714285714
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 2,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.28477021113670825,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 3,
+    "n": 3,
+    "mass": 7.04870656234581e-05,
+    "mean_probability": 0.35848469867174665,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 4,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.4532031638604443,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 5,
+    "n": 5,
+    "mass": 0.00011747844270576349,
+    "mean_probability": 0.5535721991873257,
+    "fraction_fraud": 0.2
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 6,
+    "n": 3,
+    "mass": 7.04870656234581e-05,
+    "mean_probability": 0.6567174468648939,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 7,
+    "n": 7,
+    "mass": 0.00016446981978806888,
+    "mean_probability": 0.7523245898551705,
+    "fraction_fraud": 0.42857142857142855
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 8,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.8282587565891855,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_none",
+    "mode": "sigmoid",
+    "bin": 9,
+    "n": 18,
+    "mass": 0.00042292239374074856,
+    "mean_probability": 0.9810300372885072,
+    "fraction_fraud": 0.9444444444444444
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 0,
+    "n": 32442,
+    "mass": 0.7622471276520758,
+    "mean_probability": 0.02580448615923946,
+    "fraction_fraud": 9.24727205474385e-05
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 1,
+    "n": 4061,
+    "mass": 0.0954159911656211,
+    "mean_probability": 0.14251456364595652,
+    "fraction_fraud": 0.0002462447672986949
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 2,
+    "n": 2042,
+    "mass": 0.04797819600103381,
+    "mean_probability": 0.24593442240164592,
+    "fraction_fraud": 0.0009794319294809011
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 3,
+    "n": 1307,
+    "mass": 0.030708864923286578,
+    "mean_probability": 0.3466382734077998,
+    "fraction_fraud": 0.0007651109410864575
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 4,
+    "n": 946,
+    "mass": 0.022226921359930454,
+    "mean_probability": 0.44610493511825,
+    "fraction_fraud": 0.0010570824524312897
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 5,
+    "n": 542,
+    "mass": 0.012734663189304763,
+    "mean_probability": 0.5462319101434372,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 6,
+    "n": 395,
+    "mass": 0.009280796973755315,
+    "mean_probability": 0.6471326332349938,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 7,
+    "n": 312,
+    "mass": 0.007330654824839642,
+    "mean_probability": 0.7473538964899364,
+    "fraction_fraud": 0.00641025641025641
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 8,
+    "n": 264,
+    "mass": 0.006202861774864312,
+    "mean_probability": 0.8456915281867389,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "raw",
+    "bin": 9,
+    "n": 250,
+    "mass": 0.005873922135288175,
+    "mean_probability": 0.9602272737283546,
+    "fraction_fraud": 0.168
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "sigmoid",
+    "bin": 0,
+    "n": 42507,
+    "mass": 0.9987312328187777,
+    "mean_probability": 0.00017724896807812804,
+    "fraction_fraud": 0.00035288305455572025
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "sigmoid",
+    "bin": 1,
+    "n": 7,
+    "mass": 0.00016446981978806888,
+    "mean_probability": 0.1416721668164072,
+    "fraction_fraud": 0.2857142857142857
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "sigmoid",
+    "bin": 2,
+    "n": 8,
+    "mass": 0.00018796550832922158,
+    "mean_probability": 0.2389266510730962,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "sigmoid",
+    "bin": 3,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.34946807090963095,
+    "fraction_fraud": 0.5
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "sigmoid",
+    "bin": 4,
+    "n": 3,
+    "mass": 7.04870656234581e-05,
+    "mean_probability": 0.45146504602945275,
+    "fraction_fraud": 0.6666666666666666
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "sigmoid",
+    "bin": 6,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.6824148286401418,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_balanced",
+    "mode": "sigmoid",
+    "bin": 7,
+    "n": 31,
+    "mass": 0.0007283663447757336,
+    "mean_probability": 0.7563326000638472,
+    "fraction_fraud": 0.967741935483871
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 0,
+    "n": 41467,
+    "mass": 0.9742957167359789,
+    "mean_probability": 0.008269195836487013,
+    "fraction_fraud": 0.00019292449417609184
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 1,
+    "n": 630,
+    "mass": 0.0148022837809262,
+    "mean_probability": 0.13872285430108025,
+    "fraction_fraud": 0.0031746031746031746
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 2,
+    "n": 187,
+    "mass": 0.004393693757195554,
+    "mean_probability": 0.2422219533587801,
+    "fraction_fraud": 0.0053475935828877
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 3,
+    "n": 102,
+    "mass": 0.0023965602311975752,
+    "mean_probability": 0.34420676579381526,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 4,
+    "n": 37,
+    "mass": 0.0008693404760226498,
+    "mean_probability": 0.4423786441207368,
+    "fraction_fraud": 0.02702702702702703
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 5,
+    "n": 26,
+    "mass": 0.0006108879020699701,
+    "mean_probability": 0.549997021790792,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 6,
+    "n": 24,
+    "mass": 0.0005638965249876648,
+    "mean_probability": 0.6477904112164441,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 7,
+    "n": 15,
+    "mass": 0.00035243532811729045,
+    "mean_probability": 0.7572008868458605,
+    "fraction_fraud": 0.13333333333333333
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 8,
+    "n": 12,
+    "mass": 0.0002819482624938324,
+    "mean_probability": 0.8449269376524288,
+    "fraction_fraud": 0.16666666666666666
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "raw",
+    "bin": 9,
+    "n": 61,
+    "mass": 0.0014332370010103146,
+    "mean_probability": 0.9854159216407367,
+    "fraction_fraud": 0.5901639344262295
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 0,
+    "n": 42513,
+    "mass": 0.9988722069500247,
+    "mean_probability": 0.0002251559216105163,
+    "fraction_fraud": 0.0004233999012066897
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 1,
+    "n": 5,
+    "mass": 0.00011747844270576349,
+    "mean_probability": 0.13438784183047786,
+    "fraction_fraud": 0.6
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 2,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.2576088177331445,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 3,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.35465135597079445,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 4,
+    "n": 9,
+    "mass": 0.00021146119687037428,
+    "mean_probability": 0.44831323358500774,
+    "fraction_fraud": 0.4444444444444444
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 5,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.5419850216931388,
+    "fraction_fraud": 0.5
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 6,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.6389873270076826,
+    "fraction_fraud": 0.5
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 7,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.7859093055517321,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "lr_smote",
+    "mode": "sigmoid",
+    "bin": 9,
+    "n": 23,
+    "mass": 0.0005404008364465121,
+    "mean_probability": 0.9783761790637583,
+    "fraction_fraud": 0.9565217391304348
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 0,
+    "n": 42494,
+    "mass": 0.9984257888677428,
+    "mean_probability": 0.0005910357532667576,
+    "fraction_fraud": 0.0003294582764625594
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 1,
+    "n": 11,
+    "mass": 0.0002584525739526797,
+    "mean_probability": 0.14208391529420347,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 2,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.22653034691169036,
+    "fraction_fraud": 0.25
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 3,
+    "n": 2,
+    "mass": 4.6991377082305394e-05,
+    "mean_probability": 0.38213660053845644,
+    "fraction_fraud": 0.5
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 4,
+    "n": 9,
+    "mass": 0.00021146119687037428,
+    "mean_probability": 0.44436722724054895,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 5,
+    "n": 8,
+    "mass": 0.00018796550832922158,
+    "mean_probability": 0.5610363603365737,
+    "fraction_fraud": 0.5
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 6,
+    "n": 3,
+    "mass": 7.04870656234581e-05,
+    "mean_probability": 0.6620101052266283,
+    "fraction_fraud": 0.6666666666666666
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 7,
+    "n": 6,
+    "mass": 0.0001409741312469162,
+    "mean_probability": 0.750338454336413,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 8,
+    "n": 15,
+    "mass": 0.00035243532811729045,
+    "mean_probability": 0.8521974177261604,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "raw",
+    "bin": 9,
+    "n": 9,
+    "mass": 0.00021146119687037428,
+    "mean_probability": 0.9411851851851851,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 0,
+    "n": 42508,
+    "mass": 0.998754728507319,
+    "mean_probability": 0.00020666989276767382,
+    "fraction_fraud": 0.0003528747529876729
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 1,
+    "n": 2,
+    "mass": 4.6991377082305394e-05,
+    "mean_probability": 0.16513590279164603,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 2,
+    "n": 10,
+    "mass": 0.00023495688541152698,
+    "mean_probability": 0.24397799399038936,
+    "fraction_fraud": 0.1
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 3,
+    "n": 8,
+    "mass": 0.00018796550832922158,
+    "mean_probability": 0.3503536914498879,
+    "fraction_fraud": 0.5
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 4,
+    "n": 3,
+    "mass": 7.04870656234581e-05,
+    "mean_probability": 0.4585235395662441,
+    "fraction_fraud": 0.6666666666666666
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 5,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.5438302487359785,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 6,
+    "n": 5,
+    "mass": 0.00011747844270576349,
+    "mean_probability": 0.655623955550465,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 7,
+    "n": 12,
+    "mass": 0.0002819482624938324,
+    "mean_probability": 0.7396749246047754,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 8,
+    "n": 5,
+    "mass": 0.00011747844270576349,
+    "mean_probability": 0.8603772436627196,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_none",
+    "mode": "sigmoid",
+    "bin": 9,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.9194824577358341,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 0,
+    "n": 42422,
+    "mass": 0.9967340992927798,
+    "mean_probability": 0.0050033480653149266,
+    "fraction_fraud": 0.0002592994201122059
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 1,
+    "n": 72,
+    "mass": 0.0016916895749629942,
+    "mean_probability": 0.1306441017804159,
+    "fraction_fraud": 0.013888888888888888
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 2,
+    "n": 16,
+    "mass": 0.00037593101665844316,
+    "mean_probability": 0.2322608102574783,
+    "fraction_fraud": 0.0625
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 3,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.3074471045107367,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 4,
+    "n": 7,
+    "mass": 0.00016446981978806888,
+    "mean_probability": 0.4446015643096416,
+    "fraction_fraud": 0.14285714285714285
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 5,
+    "n": 6,
+    "mass": 0.0001409741312469162,
+    "mean_probability": 0.5570494633429325,
+    "fraction_fraud": 0.3333333333333333
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 6,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.6537663531517465,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 7,
+    "n": 8,
+    "mass": 0.00018796550832922158,
+    "mean_probability": 0.7366948414007171,
+    "fraction_fraud": 0.875
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 8,
+    "n": 2,
+    "mass": 4.6991377082305394e-05,
+    "mean_probability": 0.864010780034802,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "raw",
+    "bin": 9,
+    "n": 23,
+    "mass": 0.0005404008364465121,
+    "mean_probability": 0.9544297446375107,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 0,
+    "n": 42511,
+    "mass": 0.9988252155729423,
+    "mean_probability": 0.0003333757520401747,
+    "fraction_fraud": 0.0003058032038766437
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 1,
+    "n": 9,
+    "mass": 0.00021146119687037428,
+    "mean_probability": 0.13809110478121372,
+    "fraction_fraud": 0.2222222222222222
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 2,
+    "n": 6,
+    "mass": 0.0001409741312469162,
+    "mean_probability": 0.2400961714003718,
+    "fraction_fraud": 0.5
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 3,
+    "n": 2,
+    "mass": 4.6991377082305394e-05,
+    "mean_probability": 0.34952719500479523,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 4,
+    "n": 6,
+    "mass": 0.0001409741312469162,
+    "mean_probability": 0.4074573766877347,
+    "fraction_fraud": 0.8333333333333334
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 5,
+    "n": 2,
+    "mass": 4.6991377082305394e-05,
+    "mean_probability": 0.5071146207330647,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 6,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.6318253921046685,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 7,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.7552779978907477,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 8,
+    "n": 9,
+    "mass": 0.00021146119687037428,
+    "mean_probability": 0.8446153242935154,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_balanced",
+    "mode": "sigmoid",
+    "bin": 9,
+    "n": 14,
+    "mass": 0.00032893963957613775,
+    "mean_probability": 0.9542150689218226,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 0,
+    "n": 42017,
+    "mass": 0.987218345433613,
+    "mean_probability": 0.010167375999340589,
+    "fraction_fraud": 0.00023799890520503604
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 1,
+    "n": 429,
+    "mass": 0.010079650384154508,
+    "mean_probability": 0.13014726429333442,
+    "fraction_fraud": 0.004662004662004662
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 2,
+    "n": 46,
+    "mass": 0.0010808016728930242,
+    "mean_probability": 0.24052094532526722,
+    "fraction_fraud": 0.021739130434782608
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 3,
+    "n": 14,
+    "mass": 0.00032893963957613775,
+    "mean_probability": 0.34434606482938923,
+    "fraction_fraud": 0.07142857142857142
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 4,
+    "n": 6,
+    "mass": 0.0001409741312469162,
+    "mean_probability": 0.45005228027969,
+    "fraction_fraud": 0.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 5,
+    "n": 5,
+    "mass": 0.00011747844270576349,
+    "mean_probability": 0.5500797444208889,
+    "fraction_fraud": 0.2
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 6,
+    "n": 7,
+    "mass": 0.00016446981978806888,
+    "mean_probability": 0.6340976632588043,
+    "fraction_fraud": 0.2857142857142857
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 7,
+    "n": 3,
+    "mass": 7.04870656234581e-05,
+    "mean_probability": 0.7732428059691195,
+    "fraction_fraud": 0.6666666666666666
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 8,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.8393721894517161,
+    "fraction_fraud": 0.75
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "raw",
+    "bin": 9,
+    "n": 30,
+    "mass": 0.0007048706562345809,
+    "mean_probability": 0.9593372392545703,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 0,
+    "n": 42513,
+    "mass": 0.9988722069500247,
+    "mean_probability": 0.0002236323158069834,
+    "fraction_fraud": 0.0003293110342718698
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 1,
+    "n": 10,
+    "mass": 0.00023495688541152698,
+    "mean_probability": 0.14882765381673307,
+    "fraction_fraud": 0.2
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 2,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.24879614246004936,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 3,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.3275725829592122,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 4,
+    "n": 4,
+    "mass": 9.398275416461079e-05,
+    "mean_probability": 0.4467981810919928,
+    "fraction_fraud": 0.5
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 5,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.5697187138958933,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 6,
+    "n": 1,
+    "mass": 2.3495688541152697e-05,
+    "mean_probability": 0.6872280253506419,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 7,
+    "n": 5,
+    "mass": 0.00011747844270576349,
+    "mean_probability": 0.7876121471275712,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 8,
+    "n": 6,
+    "mass": 0.0001409741312469162,
+    "mean_probability": 0.8709154580435943,
+    "fraction_fraud": 1.0
+  },
+  {
+    "variant": "rf_smote",
+    "mode": "sigmoid",
+    "bin": 9,
+    "n": 19,
+    "mass": 0.00044641808228190126,
+    "mean_probability": 0.9636967583249018,
+    "fraction_fraud": 1.0
+  }
+]

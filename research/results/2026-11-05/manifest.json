@@ -1,0 +1,58 @@
+{
+  "dataset_sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+  "raw_rows": 284807,
+  "raw_frauds": 492,
+  "duplicate_rows_removed": 1081,
+  "splits": {
+    "train": {
+      "rows": 156049,
+      "frauds": 332,
+      "time_min": 0.0,
+      "time_max": 108576.0,
+      "row_ids_sha256": "7fbd80f99d3181ef8ecd735ccd835752a6436c86d6598b54ac0835d17554021f"
+    },
+    "calibration": {
+      "rows": 42558,
+      "frauds": 34,
+      "time_min": 108580.0,
+      "time_max": 132905.0,
+      "row_ids_sha256": "ac5e6dcd3ace2232f19cba9983bd7d01cdb9cbd9404c10dc4ce3bb5080714689"
+    },
+    "validation": {
+      "rows": 42558,
+      "frauds": 55,
+      "time_min": 132906.0,
+      "time_max": 151319.0,
+      "row_ids_sha256": "954b6612b24b663bb43e47f58fac6b4f309947b2e9ab88b019ca721a1a9c1f43"
+    },
+    "test": {
+      "rows": 42561,
+      "frauds": 52,
+      "time_min": 151320.0,
+      "time_max": 172792.0,
+      "row_ids_sha256": "c9d408c0ebcb680542b4cf2466685617a05d3fc7690e6e7c27dd31af5e55ae0e"
+    }
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "trees": 100,
+  "jobs": 4,
+  "bootstraps": 200,
+  "source_sha256": "e641a032600bb647d128b8ce58d8fee54519595eb10404e90366fc3ef6dc3b4c",
+  "protocol_sha256": "3531cc2f29110ed6ddd9bec273813e5dc078fdf9948876d0d467f4b43b161e0d",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "imbalanced-learn": "0.13.0",
+    "scipy": "1.15.3",
+    "joblib": "1.4.2"
+  },
+  "git_head": "8b98c787ae635e3749f52464f10a957b2348cff5",
+  "git_dirty": true
+}
