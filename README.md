@@ -3,6 +3,10 @@
 Offline research on rare-event classification, alongside an earlier Flask API
 prototype. Uses the public [ULB/Worldline credit-card fraud dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
+## Monthly fraud-alert thresholds
+
+The [companion technical report and reproduction command](research/monthly_thresholds/README.md) compare fixed and monthly cutoffs under a shared review allowance on two years of simulated transactions. The [monthly data audit](research/monthly_thresholds/results/data_audit.csv) and [held-out results](research/monthly_thresholds/results/monthly.csv) accompany the paper.
+
 ## Research extension: reliability under distribution shift
 
 The November 2026 extension compares Logistic Regression and Random Forest with
