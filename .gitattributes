@@ -1,3 +1,5 @@
 # Keep the files hashed in the run manifest byte-stable across platforms.
 research/experiment.py text eol=lf
 research/PROTOCOL.md text eol=lf
+research/monthly_thresholds/*.pdf binary
+research/monthly_thresholds/results/*.csv text eol=lf
