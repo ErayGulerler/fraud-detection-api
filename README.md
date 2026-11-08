@@ -1,5 +1,12 @@
 # Fraud Detection API
 
+## Independent research
+
+- [Monthly fraud-alert thresholds](https://github.com/ErayGulerler/fraud-detection-api/tree/research/monthly-thresholds/research/monthly_thresholds). Across six simulated test months, monthly updating caught 330 frauds in 362 reviews. A fixed cutoff caught 302 in 331 reviews. Matching the realized workload gave 301 frauds in 330 reviews for each policy. [Four-page technical report](https://github.com/ErayGulerler/fraud-detection-api/blob/research/monthly-thresholds/research/monthly_thresholds/technical-report.pdf).
+- [Rare-event classifiers under distribution shift](https://github.com/ErayGulerler/fraud-detection-api/blob/research/rare-event-distribution-shift/research/REPORT.md). This earlier chronological study supplies the model recipe for the monthly comparison and supersedes the validation claims from the original API prototype below.
+
+## API prototype
+
 Machine learning system that classifies credit card transactions as fraudulent or legitimate. Built around the [Kaggle Credit Card Fraud dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) — 284k transactions where only 0.17% are fraud.
 
 The interesting challenge here is the extreme class imbalance. A dumb model that always predicts "not fraud" gets 99.8% accuracy, so you need SMOTE + proper metrics (precision/recall, not accuracy) to actually learn anything useful.
